@@ -1,0 +1,101 @@
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #0f172a;
+      color: #fff;
+      scroll-behavior: smooth;
+    }
+
+    /* Navbar */
+    .navbar {
+      backdrop-filter: blur(10px);
+      background: rgba(15, 23, 42, 0.8);
+    }
+
+    /* Hero */
+    .hero {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background: linear-gradient(135deg, #6366f1, #06b6d4);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+
+    .typing {
+      color: #facc15;
+      font-weight: 600;
+    }
+
+    #profile-picture {
+        border-radius: 50%;
+        height: 200px;
+        border: 5px solid white
+    }
+    /* Section */
+    section {
+      padding: 80px 0;
+    }
+
+    /* Cards */
+    .card {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.1);
+      backdrop-filter: blur(12px);
+      border-radius: 20px;
+      transition: 0.4s;
+      color: white;
+    }
+
+    .card:hover {
+      transform: translateY(-10px) scale(1.02);
+      box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+    }
+
+    .project-thumbnail {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;        /* keeps image nicely cropped */
+    border-radius: 12px;      /* smooth rounded corners */
+    margin: 15px 0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+
+    /* Skills */
+    .skill-bar {
+      background: #1e293b;
+      border-radius: 20px;
+      overflow: hidden;
+    }
+
+    .skill-progress {
+      height: 10px;
+      background: linear-gradient(90deg, #22c55e, #06b6d4);
+    }
+
+    /* Buttons */
+    .btn-custom {
+      background: linear-gradient(45deg, #6366f1, #06b6d4);
+      border: none;
+      color: white;
+      border-radius: 30px;
+      padding: 10px 25px;
+    }
+
+    .btn-custom:hover {
+      opacity: 0.8;
+    }
+
+    /* Footer */
+    footer {
+      background: #020617;
+      padding: 30px 0;
+      text-align: center;
+    }
